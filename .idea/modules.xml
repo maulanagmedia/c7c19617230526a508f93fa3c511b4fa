@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CakraTV.iml" filepath="$PROJECT_DIR$/CakraTV.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maulanacustommodul/maulanacustommodul.iml" filepath="$PROJECT_DIR$/maulanacustommodul/maulanacustommodul.iml" />
     </modules>
   </component>
 </project>
