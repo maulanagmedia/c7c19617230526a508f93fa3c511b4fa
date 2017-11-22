@@ -1,4 +1,4 @@
-package gmedia.net.id.cakratv;
+package gmedia.net.id.cakratvlivestreaming;
 
 import org.junit.Test;
 
