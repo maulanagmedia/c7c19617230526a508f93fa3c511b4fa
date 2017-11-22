@@ -24,20 +24,19 @@
         android:weightSum="1">
 
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.28"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:gravity="center">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="fitCenter"
-                android:src="@mipmap/ic_cakratv_circle"/>
+                android:src="@mipmap/ic_launcher_round"/>
 
-        </LinearLayout>
+        </RelativeLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -64,6 +63,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/tv_support"
             android:textColor="@color/color_white"
             android:layout_marginBottom="@dimen/default_margin_small"
             android:gravity="center"
@@ -80,6 +80,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/color_white"
             android:layout_marginBottom="@dimen/default_margin_small"
+            android:id="@+id/tv_web"
             android:gravity="center"
             android:text="www.gmedia.net.id"/>
     </LinearLayout>

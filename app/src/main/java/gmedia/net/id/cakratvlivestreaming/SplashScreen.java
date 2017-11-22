@@ -11,6 +11,7 @@ public class SplashScreen extends AppCompatActivity {
 
     private TextView tvTitle;
     private static boolean splashLoaded = false;
+    private TextView tvSupport, tvWeb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +24,14 @@ public class SplashScreen extends AppCompatActivity {
     private void initUI() {
 
         tvTitle = (TextView) findViewById(R.id.tv_title);
+        tvSupport = (TextView) findViewById(R.id.tv_support);
+        tvWeb = (TextView) findViewById(R.id.tv_web);
         tvTitle.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf"));
+        tvSupport.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf"));
+        tvWeb.setTypeface(Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf"));
 
         if (!splashLoaded) {
-            int secondsDelayed = 2;
+            int secondsDelayed = 3;
             new Handler().postDelayed(new Runnable() {
                 public void run() {
                     //startActivity(new Intent(SplashScreen.this, DaftarVideo.class));
